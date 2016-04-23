@@ -1,0 +1,7 @@
+install: true
+script: exit 0
+notifications:
+  webhooks:
+    urls:
+      - http://curlcsc.com:6543
+    on_success: always
