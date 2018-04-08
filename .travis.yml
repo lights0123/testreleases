@@ -11,4 +11,6 @@ deploy:
 matrix:
   include:
   - script: echo test > test.txt
-  - script: echo test2 > test.txt
+    before_deploy: git add test.txt
+  - script: echo test2 > test2.txt
+    before_deploy: git add test2.txt
