@@ -1,5 +1,6 @@
 language: c
 install: true
+script: echo test > test.txt
 deploy:
   provider: releases
   api_key:
@@ -8,9 +9,9 @@ deploy:
   file: "*.txt"
   on:
     tags: true
-matrix:
-  include:
-  - script: echo test > test.txt
-    before_deploy: git add test.txt
-  - script: echo test2 > test2.txt
-    before_deploy: git add test2.txt
+    #matrix:
+    #include:
+    #- script: echo test > test.txt
+    #before_deploy: git add test.txt
+    #- script: echo test2 > test2.txt
+    #before_deploy: git add test2.txt
