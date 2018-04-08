@@ -9,6 +9,6 @@ deploy:
   on:
     tags: true
 matrix:
-- include:
+  include:
   - script: echo test > test.txt
   - script: echo test2 > test.txt
