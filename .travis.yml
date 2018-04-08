@@ -6,6 +6,7 @@ deploy:
   api_key:
     secure: emjQznEt/h2xs9j/abn/z9kzt3qBUkB0v64G1YAidUMrN7mBNfmsZwE2reyJi+LeXRlpO04YEX/FzXDAgFt9vYHw3Lwfg7PGbT7pztzhqSfz8PoQYNMkQPACB3+r2Nbipc6RQCA0M5leVEv1kalymZ9FE1cqpR4OibLHJTpJRp93/yoRw1gMMH+51v5oNN5TyvBe/S6oXpLcHcpZOMLYqbKL1EA0XjitDPNxvYOm5EK9+Cq74F4R3AWC6FH1FolSCXgxh2L/bXs43n09RpiPe6BD8P/1IfDNdhZyXOjAr8hcFg7S30WGTyt1+3YOpAs9INTwa5b44gQH390K/SZr+oz0Z6oaPWWbCbWMo5RQj/KXHcfCjFrNOgpTqsbh8aW6LR9O443hRKO6fKwzyxym0+usddMUCV4/rUxNo/Jk3Qto2kbGQO3VqbP0nsBa8o0BV1y14w6Dsi61G4qIuKjSxvjETdldGEYRS/bhynsy6guw592AVSGPaFdkbbDB89xkBxOV9flmLvknVF/I1HQgzGzo5NVKWebtz02X35pftdA339FKSjYWLF2eU0y998G8ffpXsy8ao7XAwEihnUYjbrfNjihPBDfcHf7KEy7vA2pMg03YsbMX8FiLvE3s5hEs8kPNUZ85NcLJKzqMsclxjBLj98+jB4YoGmpBYb6LrVw=
   file: "test.txt"
+  skip_cleanup: true
   on:
     tags: true
     #matrix:
