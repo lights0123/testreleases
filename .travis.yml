@@ -1,6 +1,6 @@
 language: c
 install: true
-script: echo test > test.txt
+script: echo test > test.txt && git add test.txt
 deploy:
   provider: releases
   api_key:
